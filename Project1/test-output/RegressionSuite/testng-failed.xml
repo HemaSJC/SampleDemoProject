@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [RegressionSuite]">
+  <test name="RegistrationPageRegressionTests1(failed)">
+    <classes>
+      <class name="TestBase.LaunchBrowser">
+        <methods>
+          <include name="method"/>
+        </methods>
+      </class> <!-- TestBase.LaunchBrowser -->
+    </classes>
+  </test> <!-- RegistrationPageRegressionTests1(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
