@@ -27,7 +27,12 @@ public class LaunchApplication {
 		Actions d1 =new Actions(driver);
 		d1.moveToElement(Welcome).click(logout).build().perform();;
 		driver.close();
+	}
 	
-	
+	@Test
+	public void method1() throws InterruptedException {
+	 int ar[] = {1, 2, 3, 4, 5}; 
+     for (int i=0; i<=ar.length; i++) 
+       System.out.println(ar[i]); 
 	}
 	}
