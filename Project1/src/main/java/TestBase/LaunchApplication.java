@@ -9,7 +9,6 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 public class LaunchApplication {
-
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\hemalathak\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
