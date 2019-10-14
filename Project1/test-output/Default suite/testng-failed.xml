@@ -5,7 +5,7 @@
     <classes>
       <class name="TestBase.LaunchApplication">
         <methods>
-          <include name="method1"/>
+          <include name="method3"/>
         </methods>
       </class> <!-- TestBase.LaunchApplication -->
     </classes>

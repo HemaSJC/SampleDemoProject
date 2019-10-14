@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Oct 11 14:19:48 IST 2019</td>
+<td>Started on:</td><td>Mon Oct 14 15:17:13 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (50 ms)</td>
+<tr><td>Total time:</td><td>20 seconds (20071 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,9 +75,9 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TestBase.LaunchApplication.method1()'><b>method1</b><br>Test class: TestBase.LaunchApplication</td>
-<td><div><pre>java.lang.ArrayIndexOutOfBoundsException: 5
-	at TestBase.LaunchApplication.method1(LaunchApplication.java:39)
+<td title='TestBase.LaunchApplication.method3()'><b>method3</b><br>Test class: TestBase.LaunchApplication</td>
+<td><div><pre>java.lang.ArithmeticException: / by zero
+	at TestBase.LaunchApplication.method3(LaunchApplication.java:43)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -103,9 +103,9 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1740189450", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1740189450'><pre>java.lang.ArrayIndexOutOfBoundsException: 5
-	at TestBase.LaunchApplication.method1(LaunchApplication.java:39)
+</pre></div><a href='#' onClick='toggleBox("stack-trace658404420", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace658404420'><pre>java.lang.ArithmeticException: / by zero
+	at TestBase.LaunchApplication.method3(LaunchApplication.java:43)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -133,7 +133,25 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>TestBase.LaunchApplication@457e2f02</td></tr>
+<td>TestBase.LaunchApplication@c038203</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestBase.LaunchApplication.method()'><b>method</b><br>Test class: TestBase.LaunchApplication</td>
+<td></td>
+<td>19</td>
+<td>TestBase.LaunchApplication@c038203</td></tr>
+<tr>
+<td title='TestBase.LaunchApplication.method1()'><b>method1</b><br>Test class: TestBase.LaunchApplication</td>
+<td></td>
+<td>0</td>
+<td>TestBase.LaunchApplication@c038203</td></tr>
 </table><p>
 </body>
 </html>

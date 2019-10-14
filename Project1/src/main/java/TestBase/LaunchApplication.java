@@ -32,7 +32,16 @@ public class LaunchApplication {
 	@Test
 	public void method1() throws InterruptedException {
 	 int ar[] = {1, 2, 3, 4, 5}; 
-     for (int i=0; i<=ar.length; i++) 
+     for (int i=0; i<=ar.length-1; i++) 
        System.out.println(ar[i]); 
 	}
+	
+	@Test
+	public void method3() throws InterruptedException {
+		int d = 0;
+	      int n = 20;
+	      int fraction = n/d;
+	     System.out.println("End Of Main");
+	}
+	
 	}
